@@ -84,7 +84,7 @@ $ npm install -g grunt-cli yo generator-remark
 
 --
 .card[
-.large[.center[![shell](/img/1.jpg)]]
+.large[.center[![shell](img/1.jpg)]]
 ]
 
 ---
