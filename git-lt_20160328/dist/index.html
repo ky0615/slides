@@ -16,11 +16,7 @@ class: normal, chapter-1
 # 自己紹介
 .card[
 15FR 谷部 航太郎  
-Twitter: [@dll7](https://twitter.com/dll7)  
-Facebook: [ky0615](https://www.facebook.com/ky0615)  
-Github: [ky0615](https://github.com/ky0615)  
-
-Developer
+{Twitter, Facebook, Github}= {[@dll7](https://twitter.com/dll7), [ky0615](https://www.facebook.com/ky0615), [ky0615](https://github.com/ky0615)}
 
 - Android Application
   - Java8っぽいsomething
@@ -28,10 +24,41 @@ Developer
 - Backend
   - Node.js
   - Python
+- Frontend
+  - ECMA5
+  - AltJS(特にCoffeeScript)
+  - AngularJS@1.x
 ]
 
 ---
-class: center, middle, hero, chapter-2
+class: center, middle, hero, chapter-4, kaomoji
+
+## 今日ここに来た経緯
+
+
+---
+class: center, middle, hero, chapter-4, kaomoji
+
+## ┗(^o^)┛勉強会参加するぞぉぉぉｗｗｗｗｗｗ( ^o^)☎┐……
+
+---
+class: center, middle, hero, chapter-4, kaomoji
+## （ ˘⊖˘）。o(待てよ、Git毎日触ってるのにハンズオンするのか)
+
+---
+class: center, middle, hero, chapter-4, kaomoji
+## |Connpass| ┗(☋｀ )┓三
+
+---
+class: center, middle, hero, chapter-4, kaomoji
+## お前が登壇するんだよ…( ◠‿◠ )☛
+
+---
+class: center, middle, hero, chapter-4, kaomoji
+## ▂▅▇█▓▒░('ω')░▒▓█▇▅▂ うわあああ
+
+---
+class: center, middle, hero, chapter-2, kaomoji
 
 ## GITとLTの関係性とは？
 ---
@@ -233,8 +260,67 @@ __C__ をタイプすると発表用の画面を出せるので、そちらを�
 
 ]
 
+
+---
+class: center, middle, hero, chapter-4
+# おまけ
+
 ---
 class: normal, chapter-4
+# おまけ
+
+.card[
+## aliasを使ってコマンドの文字数を減らす
+#### MacOSX, \*nix向け
+```
+$ alias g=git
+or
+$ echo "alias g=\"git\"" >> .zshrc
+
+$ g checkout master
+```
+]
+
+--
+.card[
+.center[
+＿人人人人人人＿  
+＞　2文字削減　＜  
+￣Y^Y^Y^Y^Y￣  
+]
+]
+
+---
+
+class: normal, chapter-4
+# おまけ
+
+.card[
+## aliasを使ってコマンドの文字数を減らす その２
+#### MacOSX, \*nix向け
+```
+$ git config --global alias.s "status -sb"
+$ git config --global alias.df diff
+$ git config --global alias.co checkout
+$ git config --global alias.b branch
+$ git config --global alias.l "log --oneline --decorate --graph"
+$ git config --global alias.la "log --oneline --decorate --graph --all"
+$ g co master
+```
+]
+
+--
+.card[
+.center[
+＿人人人人人人人人人＿  
+＞　最大37文字削減　＜  
+￣Y^Y^Y^Y^Y^Y^Y^Y￣  
+]
+]
+
+
+---
+class: normal, chapter-5
 # Thank you for listening
 
 .card[

@@ -229,6 +229,9 @@ code {
   max-height: 100%;
 }
 
+.kaomoji h1, .kaomoji h2, .kaomoji h3 {
+    font-family: "MeiryoKe_UIGothic";
+}
 
 .chapter-1 {
   --bg-color: #F44336;
